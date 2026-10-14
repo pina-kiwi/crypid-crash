@@ -1,0 +1,179 @@
+{
+  "Items": [
+    {
+      "Name" : "wallet",
+      "Description" : "Your id is placed crooked in the clear pocket. Five dollars and some change are crumpled next to your Chase Bank Visa Credit Card, unsigned.",
+      "InitialDescription" : "Your wallet sits idle in the center console.",
+      "IsTakeable" : true,
+      "Location" : "Car"
+    },
+    {
+      "Name" : "phone",
+      "Description" : "It is so dead, you dont even get phantom buzzes.",
+      "InitialDescription" : "Next to your wallet sits your phone, the low charge light flashing as you press the lock button. ",
+      "IsTakeable" : true,
+      "Location" : "Car"
+    },
+    {
+      "Name" : "blanket",
+      "Description" : "Fuzzy",
+      "InitialDescription" : "In your trunk you remember putting a few things back there, one of which is a large dark green blanket. It has a couple holes in it, but it still serves its purpose.",
+      "IsTakeable" : true,
+      "Location" : "Car"
+    },
+    {
+      "Name": "flashlight",
+      "Description": "It kind of works.",
+      "InitialDescription": "Sat neatly on top of the blanket is your handy dandy flashlight.",
+      "IsTakeable": true,
+      "Location": "Car"
+    },
+    {
+      "Name": "backpack",
+      "Description": "Increases how many things you can carry.",
+      "InitialDescription": "Shoved in the far corner of the trunk sits your high school backpack. That shit can hold the world without breaking.",
+      "IsTakeable": true,
+      "Location": "Car"
+    },
+    {
+      "Name" : "waterbottle",
+      "Description" : "bottle has water",
+      "InitialDescription" : "A water bottle for your troubles.",
+      "IsTakeable" : true,
+      "Location" : "Car"
+    },
+    {
+      "Name" : "jacket",
+      "Description" : "Denim and Dusty.",
+      "InitialDescription" : "A dusty denim jacket rests on one of the rocks. ",
+      "IsTakeable" : true,
+      "Location" : "Rest Area"
+    },
+    {
+      "Name" : "newspapers",
+      "Description" : "Old, musty newspaper.",
+      "InitialDescription" : "There's a few newspapers scatters around your feet. They speak about sighting of a creature in the nearby forest",
+      "IsTakeable" : true,
+      "Location" : "Gas Station"
+    },
+    {
+      "Name" : "paper",
+      "Description" : "Small piece of a paper from the church pew. ",
+      "InitialDescription" : "In one of the pews. there is a small piece of paper. THere is a flower drawn in the corner. ",
+      "IsTakeable" : true,
+      "Location" : "Church"
+    },
+    {
+      "Name" : "pen",
+      "Description" : "A bic pen from the church pew. ",
+      "InitialDescription" : "Along with the paper is a pen. It's almost out of ink. ",
+      "IsTakeable" : true,
+      "Location" : "Church"
+    },
+    {
+      "Name" : "Bibles",
+      "Description" : "Bible",
+      "InitialDescription" : "On the alter sits a stack of Bibles. The top one is open to Revelation.",
+      "IsTakeable" : false,
+      "Location" : "Church"
+    },
+    {
+      "Name" : "chalice",
+      "Description" : "gold chalice",
+      "InitialDescription" : "A gold chalice stands next to the stack of Bibles.",
+      "IsTakeable" : false,
+      "Location" : "Church"
+    },
+    {
+      "Name" : "candle",
+      "Description" : "white candle",
+      "InitialDescription" : "A single white candle is positioned in the center of the alter. It is the only thing illuminating the church, melted wax is dripping down the side.",
+      "IsTakeable" : false,
+      "Location" : "Church"
+    },
+    {
+      "Name" : "key",
+      "Description" : "It's a key, with a horse on it. That's it. ",
+      "InitialDescription" : "A key with a horse engraved on it rests on the small table next to a newspaper like the ones in the gas station. ",
+      "IsTakeable" : true,
+      "Location" : "Entry"
+    },
+    {
+      "Name" : "bread",
+      "Description" : "but its moldy.",
+      "InitialDescription" : "A loaf of mold bread sits on the counter. It looks damp inside the bag. ",
+      "IsTakeable" : true,
+      "Location" : "Kitchen"
+    },
+    {
+      "Name" : "mug",
+      "Description" : "Ceramic capybara mug",
+      "InitialDescription" : "A single ceramic mug sits on a shelf in one of the cabinets. It has a capybara printed oon it with the text \"I LOVE MY CAT\" written in bold letters.",
+      "IsTakeable" : true,
+      "Location" : "Kitchen"
+    },
+    {
+      "Name" : "spoon",
+      "Description" : "Oopy goopy.",
+      "InitialDescription" : "A small silver spoon sits in the sink. It's covered in a mysterious brown goo and is stuck to the sink. ",
+      "IsTakeable" : false,
+      "Location" : "Kitchen"
+    },
+    {
+      "Name" : "vase",
+      "Description" : "vase",
+      "InitialDescription" : "There is a small vase on the table nearby. It is light blue with a lace pattern painted on it.",
+      "IsTakeable" : false,
+      "Location" : "Kitchen"
+    },
+    {
+      "Name" : "flowers",
+      "Description" : "A dry bouquet.",
+      "InitialDescription" : "A small bouquet of flowers sits in teh vase ont he table. they seem to have been there for a while. ",
+      "IsTakeable" : true,
+      "Location" : "Kitchen"
+    },
+    {
+      "Name" : "bottle",
+      "Description" : "its an empty pill bottle.",
+      "InitialDescription" : "A small empty pill bottle rests on the edge of the sink. ",
+      "IsTakeable" : true,
+      "Location" : "Bathroom"
+    },
+    {
+      "Name" : "journal",
+      "Description" : "Old and crusty.",
+      "InitialDescription" : "A journal rests on the edge of the bed. In it are many pages of someone writing about experiences with a creature in the forest. Compared to the articles in the newspapers, it described the creature as one who is simply observant rather than malicious.You wonder if that is true.\n You suddenly feel as if eyes are on you. ",
+      "IsTakeable" : true,
+      "Location" : "Bedroom"
+    },
+    {
+      "Name" : "meat",
+      "Description" : "It is rotting, why did you take this. Freak.",
+      "InitialDescription" : "On one of the tables sits an empty glass an a plate with a rotting piece of meat. Flies swarm around the table. ",
+      "IsTakeable" : true,
+      "Location" : "Diner"
+    },
+    {
+      "Name" : "$20",
+      "Description" : "$20",
+      "InitialDescription" : "There is a $20 dollar bill.",
+      "IsTakeable" : true,
+      "Location" : ""
+    },
+    {
+      "Name" : "generator",
+      "Description" : "solar generator",
+      "InitialDescription" : "A solar powered generator sits inside. Now you just have to wait till day to charge your phone, call a tow truck and leave this place!",
+      "IsTakeable" : true,
+      "Location" : ""
+    },
+    {
+      "Name" : "scroll",
+      "Description" : "A piece of paper with the code 05-22-25 falls, it looks like a code!",
+      "InitialDescription" : "A piece of paper with the code 05-22-25 falls, it looks like a code!",
+      "IsTakeable" : true,
+      "Location" : ""
+    }
+  ]
+}

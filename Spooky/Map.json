@@ -1,0 +1,171 @@
+{
+  "Locations" : [
+    
+    {
+      "Name" : "Car",
+      "Description" : "You are back in your car.",
+      "InitialDescription" : "You sit in the backseat of your car, unable to go back to sleep. Food wrappers from the drive up here litter the passenger’s seat along with a large map and your phone charger cable.",      
+      "Connections" : {
+        "south" : "North Town"
+      }
+    },
+    
+    {
+      "Name" : "North Town",
+      "Description" : "South is more town, West is a broken down church, East is a old gas station.",
+      "InitialDescription" : "South is more town, West is a broken down church, East is a old gas station.",
+      "Connections" : {
+        "north" : "Car",
+        "south" : "South Town",
+        "west" : "Church",
+        "east" : "Gas Pumps"
+      }
+    },
+    
+    {
+      "Name" : "Church",
+      "Description" : "You are in the church",
+      "InitialDescription" : "You enter the church and are faced with two long lines of pews. Each one holds small pieces of paper and a few pens. The west doors point towards a cemetery.",
+      "Connections" : {
+        "east" : "North Town",
+        "west" : "Cemetery"
+      }
+    },
+    
+    {
+      "Name" : "South Town",
+      "Description" : "North is towards your car, West theres a abandoned house, East lays an old diner.",
+      "InitialDescription" : "North is towards your car, West theres a abandoned house, East lays an old diner.",
+      "Connections" : {
+        "north" : "North Town",
+        "west" : "Entry",
+        "east" : "Diner"
+      }
+    },
+    {
+      "Name" : "Diner",
+      "Description" : "You are back at the diner.",
+      "InitialDescription" : "You enter the diner. You see a long bar with stools lined in front of it. There are four tables with pushed out chairs. Everything is covered in a chick layer of dust. The door to the kitchen is broke and stuck shut. However, the window connecting the kitchen to the dining area shows that there is nothing of interest anyway. ",
+      "Connections" : {
+        "west" : "South Town"
+      }
+    },
+    {
+      "Name" : "Gas Station",
+      "Description" : "You are back in the gas station. Nothing has changed",
+      "InitialDescription" : "You enter the gas station. The walls are lined with shelves. Everything is expired and has been for a while. There's a stack of newspapers scattered around the floor and an empty postcard stand that lays on the floor.",
+      "Connections" : {
+        "east" : "Rest Area",
+        "west" : "Gas Pumps"
+      }
+    },
+    
+    {
+      "Name" : "Gas Pumps",
+      "Description" : "You're back at the gas pumps. You still feel as if you're not alone.",
+      "InitialDescription" : "you walk near the gas pumps. There are six of them divided in rows of two. Each pump looks extremely old and all of them are broken. It is dark outside, and you feel as if something is watching you. A chill runs down your spine.",
+      "Connections" : {
+        "east" : "Gas Station",
+        "west" : "North Town"
+      }
+    },
+    
+    {
+      "Name": "Rest Area",
+      "Description": "You are back at the rest stop.",
+      "InitialDescription" : "You stumble upon a rest stop behind the gas station. In front of you are two large RVs parked facing each other. In front of the RVs is a small campfire pit with burnt firewood. There are some rocks around the pit and a dust-covered denim jacket laying on one.",
+      "Connections": {
+        "west": "Gas Station"
+      }
+    },
+
+    {
+      "Name" : "Entry",
+      "Description" : "You are back in the entryway. The gnome is still staring.",
+      "InitialDescription" : "You enter the house. In the entry, theh walls show bare boards as the pale green wallpaper slowly detached itself. You stand on a large rug that is caked with mud. There is a coat rack next to the door, a small table to the side of you, and a ceramic gnome. The gnome smiles at you flirtatiously. It is glued to the floor. ",
+      "Connections" : {
+        "east" : "South Town",
+        "west" : "Hall1"
+      }
+    },
+
+    {
+      "Name" : "Hall1",
+      "Description" : "You enter the hallway, East is back to the entry, North is a kitchen, South is the bathroom, West there is more hall",
+      "InitialDescription" : "You enter the hallway, East is back where you came from, North is a kitchen, South is the bathroom, West there is more hall",
+      "Connections" : {
+        "east" : "Entry",
+        "north" : "Kitchen",
+        "south" : "Bathroom",
+        "west" : "Hall2"
+      }
+    },
+
+    {
+      "Name" : "Kitchen",
+      "Description" : "You have returned to the kitchen.",
+      "InitialDescription" : "You are in a small kitchen with a table nearby. A trail of ants walk along the floor near your feet. Ew. A few cabinets line the wall above the counter and a large window directly above the sink. THe table is covered in a thin sheet that is ripped at the edges.",
+      "Connections" : {
+        "south" : "Hall1"
+      }
+    },
+
+    {
+      "Name" : "Bathroom",
+      "Description" : "You are back in the bathroom. You still look like shit.",
+      "InitialDescription" : "It is a normal bathroom. The shower curtains are drawn back, revealing an unkept bathtub. You see your reflection in the mirror. You look tired. You don't feel comfortable using the toilet. It's pretty gross.",
+      "Connections" : {
+        "north" : "Hall1"
+      }
+    },
+
+    {
+      "Name" : "Hall2",
+      "Description" : "Its the end of the hallway, East is back down the first hall, South there is a bedroom, North is the study.",
+      "InitialDescription" : "Its the end of the hallway, East is back down the first hall, North there is a bedroom, South is the study.",
+      "Connections" : {
+        "east" : "Hall1",
+        "north" : "Study",
+        "south" : "Bedroom"
+      }
+    },
+
+    {
+      "Name" : "Study",
+      "Description" : "You have returned to the study. The majestic horse beckons a key.",
+      "InitialDescription" : "You enter the study. The walls are covered in photographs of shadows, blurry images of the forest, and newspaper clipping that talk of a creature terrorizing the area. You examine the wall. Each clipping speaks about items being stolen, dead animals, and piles of bones found, hearing low humming sounds in the dark, and een accounts of glowing yellow eyes peering through the trees at travellers and locals at night. Dozens of red pieces of yarn connect each image. On the opposite wall, there is a picture depiciting a few horses galloping through a field. There is a small hole in the bottom corner. Perhaps a key could fit?",
+      "Connections" : {
+        "south" : "Hall2"
+      }
+    },
+
+    {
+      "Name" : "Bedroom",
+      "Description" : "You are back in the bedroom. ",
+      "InitialDescription" : "You're in the bedroom. In front of you is a large bed that is made nicely and covered in a thin layer of dust. On either side of the bed is a small nightstand. One has a lamp on it. The lamp does not work. ",
+      "Connections" : {
+        "north" : "Hall2"
+      }
+    },
+
+    {
+      "Name" : "Safe",
+      "Description" : "The code worked! You opened the safe.",
+      "InitialDescription" : "Behind the painting is a safe. You need a code to open it.",
+      "Connections" : {
+        "east" : "Study"
+      }
+    },
+
+    {
+      "Name" : "Cemetery",
+      "Description" : "You are in the cemetery.",
+      "InitialDescription" : "You go outside to find a large cemetery connected to the church. Each grave is dirty and vines crawl around each one. A large weeping angel sits near the edge of the cemetery. It has watermarks from the rain washing off dirt, and it looks as if tears are running down her face. Her hands are sculpted in a way that she could hold something. In the distance, you can hear and owl and a few insects softly making noise.",
+      "Connections" : {
+        "east" : "Church"
+      }
+    }
+  ],
+   
+  "StartLocation" : "Car"
+}
